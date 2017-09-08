@@ -1,15 +1,37 @@
-body {
+html, body {
   background-color: black;
   font-family: Verdana;
+  text-align: center;
+  align-items: center;
 }
-h1, h2 {
+h1, h2, p {
   font-weight: normal;
   font-size: 50px;
   text-align: center;
   color: white;
 }
-/* NOTE: Selector for secondary h1 sections */
-.one {
+
+/* NOTE: Selector for special h2 and p sections */
+#one {
   font-size: 42px;
   font-weight: 300;
+}
+p {
+  font-size: 21px;
+  color: Gray;
+}
+
+/* NOTE: Selector for links and images */
+a {
+  text-align: center;
+  color: Aquamarine;
+  font-size: 16px;
+  text-decoration: underline;
+}
+img {
+  display: inline-block;
+  margin: 15px 10px;
+}
+#copyright {
+  text-align: right;
 }
