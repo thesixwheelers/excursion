@@ -10,7 +10,6 @@ h1, h2, p {
   text-align: center;
   color: white;
 }
-
 /* NOTE: Selector for special h2 and p sections */
 #one {
   font-size: 42px;
@@ -20,7 +19,6 @@ p {
   font-size: 21px;
   color: Gray;
 }
-
 /* NOTE: Selector for links and images */
 a {
   text-align: center;
